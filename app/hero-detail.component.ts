@@ -3,9 +3,9 @@ import {Hero} from './hero';
 import {HeroService} from './hero.service';
 
 @Component({
-  selector: 'my-hero-detail',
-  inputs: ['hero'],
-  template: `
+    selector: 'my-hero-detail',
+    inputs: ['hero'],
+    template: `
   <div *ngIf="hero">
     <h2>{{hero.name}} details!</h2>
     <div><label>id: </label>{{hero.id}}</div>
